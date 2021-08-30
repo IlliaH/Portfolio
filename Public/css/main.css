@@ -1,19 +1,38 @@
-.content {
+.headerStyle {
     display: flex;
     align-items: center;
     margin-top: 30px;
     margin-left: 40px;
 }
 
-.content img {
+.headerStyle img {
     width: 30%;
     height: auto;
     border-radius: 20px;
 }
 
-.content span {
+.headerStyle span {
     padding: 10px;
     font-size: 56px;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     color: #000000
+}
+
+.workExampleStyle {
+    display: inline-flex;
+    align-items: center;
+    padding: 70px 120px 50px 120px;
+}
+
+.workExampleInnerStyle {
+    border-radius: 20px;
+    padding: 100px 100px;
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 17px;
+}
+
+.videoWorkExampleStyle {
+    width: 20%;
+    height: auto;
 }

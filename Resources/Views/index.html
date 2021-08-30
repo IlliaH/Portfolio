@@ -11,17 +11,17 @@
 <body>
     <header></header>
     
-    <div class="content">
+    <div class="headerStyle">
         <img src = "/images/icon.jpg">
         <span>I'm Illia Honcharenko</span>
     </div>
     
 <!-- experience description blocks -->
-    <div style="display: inline-flex; align-items: center; padding: 70px 120px 50px 120px;">
-        <video controls = "controls" width="20%" height="395px">
+    <div class="workExampleStyle">
+        <video controls = "controls" class="videoWorkExampleStyle">
             <source src="/videos/InsightsMP4.mp4" type='video/mp4'>
         </video>
-        <div style="margin-left: 50px; background-color: #E0FAE7; border-radius: 20px; padding: 100px 100px; color: #000000; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 17px;">
+        <div class="workExampleInnerStyle" style="margin-left: 50px; background-color: #E0FAE7;">
             <span>Insights screen shows professional’s statistics based on different data that Bidvine collected. I was responsible for rebuilding the entire screen and this is what this task involved:</span>
             <ul>
                 <li>showing web views while keeping users logged in</li>
@@ -34,8 +34,8 @@
         </div>
     </div>
 
-    <div style="display: inline-flex; align-items: center; padding: 70px 120px 50px 120px;">
-        <div style="margin-right: 50px; background-color: #FFF8BC; border-radius: 20px; padding: 100px 100px; color: #000000; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 17px;">
+    <div class="workExampleStyle">
+        <div class="workExampleInnerStyle" style="margin-right: 50px; background-color: #FFF8BC;">
             <span>Bid Insights feature showed the comparison between a current professional and other people who submitted a bid. Also, it was designed to be paid feature, as a result I had to handle different screen states. The existing code was beyond any repair. There were some difficulties that I encountered while implementing this screen:</span>
             <ul>
                 <li>some parts of text were tappable, so I had to come up with custom UI component as iOS doesn’t support it by default</li>
@@ -46,16 +46,16 @@
             </ul>
             <span>Overall, implementing this screen gave me significant knowledge and techniques. I learned how to efficiently break big task down into small subtasks to achieve desired goal.</span>
         </div>
-        <video controls = "controls" width="20%" height="auto" padding-left="50px">
+        <video controls = "controls" class = "videoWorkExampleStyle">
             <source src="/videos/BidInsightsMP4.mp4" type='video/mp4'>
         </video>
     </div>
     
-    <div style="display: inline-flex; align-items: center; padding: 70px 120px 50px 120px;">
-        <video controls = "controls" width="20%" height="395px">
+    <div class="workExampleStyle">
+        <video controls = "controls" class="videoWorkExampleStyle">
             <source src="/videos/PaymentMethodsMP4.mp4" type='video/mp4'>
         </video>
-        <div style="margin-left: 50px; background-color: #FFE9E3; border-radius: 20px; padding: 100px 100px; color: #000000; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 17px;">
+        <div class="workExampleInnerStyle" style="margin-left: 50px; background-color: #FFE9E3;">
             <span>Payment methods screen allowed professionals to add credit cards or PayPal to pay for the contact with the customer. Initially, it was just a web view and our primary task was to reduce number of web views, so I was assigned to turn it into native screen. Some of the challenges that I faced:</span>
             <ul>
                 <li>Table view cells had an async state because we can’t guarantee that API calls will be always successful.</li>
