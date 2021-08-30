@@ -1,9 +1,8 @@
 .content {
-    display: -webkit-inline-box;
-    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
     margin-top: 30px;
     margin-left: 40px;
-    clear: left;   
 }
 
 .content img {
@@ -12,7 +11,5 @@
 }
 
 .content span {
-    display: inline block;
-    vertical-align: middle;
-    line-height: normal
+    padding: 10px;
 }
