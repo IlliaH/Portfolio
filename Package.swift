@@ -11,7 +11,8 @@ let package = Package(
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
         .package(url: "https://github.com/vapor/fluent.git", from: "4.0.0"),
         .package(url: "https://github.com/vapor/fluent-postgres-driver.git", from: "2.0.0"),
-        .package(url: "https://github.com/vapor/leaf.git", from: "4.0.0"),
+        .package(url: "https://github.com/vapor/leaf", .exact("4.0.0-tau.1")),
+        .package(url: "https://github.com/vapor/leaf-kit", .exact("1.0.0-tau.1.1")),
     ],
     targets: [
         .target(
@@ -20,7 +21,7 @@ let package = Package(
                 .product(name: "Fluent", package: "fluent"),
                 .product(name: "FluentPostgresDriver", package: "fluent-postgres-driver"),
                 .product(name: "Vapor", package: "vapor"),
-                .product(name: "Leaf", package: "leaf")
+                .product(name: "Leaf", package: "leaf"),
             ],
             swiftSettings: [
                 // Enable better optimizations when building in Release configuration. Despite the use of
