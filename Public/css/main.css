@@ -13,4 +13,7 @@
 
 .content span {
     padding: 10px;
+    font-size: 56px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #000000
 }
