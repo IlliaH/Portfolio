@@ -8,6 +8,7 @@
 .content img {
     width: 30%;
     height: auto;
+    border-radius: 20px;
 }
 
 .content span {
