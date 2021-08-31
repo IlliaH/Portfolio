@@ -77,3 +77,13 @@
   background-color: #BF5AF2;
   color: #EFEFEF;
 }
+
+.experienceHeaderStyle {
+    text-align: center;
+    display: block;
+    position: relative;
+    padding-top: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 34px;
+    color: #222;
+}
