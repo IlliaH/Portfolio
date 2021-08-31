@@ -55,7 +55,7 @@
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.emailButtonStyle {
+.commonButtonStyle {
     border: none;
     color: #EFEFEF;
     padding: 16px 32px;
@@ -73,7 +73,7 @@
     border: 2px solid #BF5AF2;
 }
 
-.emailButtonStyle:hover {
+.commonButtonStyle:hover {
   background-color: #BF5AF2;
   color: #EFEFEF;
 }

@@ -3,6 +3,5 @@ function sendEmail() {
 }
 
 function openCV() {
-    
-    window.open("file:///Users/dante/Documents/Books/Illia_Honcharenko_resume.docx");
+    window.open("https://docs.google.com/document/d/1BbZWbJD0AuyvgjYh1IgImZL6ROXJUeS6/edit?usp=sharing&ouid=101566818412193082785&rtpof=true&sd=true");
 }
