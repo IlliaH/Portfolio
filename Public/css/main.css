@@ -38,6 +38,7 @@
 .videoWorkExampleStyle {
     width: 20%;
     height: auto;
+    border: 1px solid #222;
 }
 
 .aboutMeStyle {
