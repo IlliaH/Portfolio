@@ -46,11 +46,34 @@
     margin-left: 230px;
     margin-right: 230px;
     margin-top: 70px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .aboutMeStyle span {
     display: block;
     position: relative;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.emailButtonStyle {
+    border: none;
+    color: #EFEFEF;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+
+    background-color: #EFEFEF;
+    color: #222;
+    border: 2px solid #BF5AF2;
+}
+
+.emailButtonStyle:hover {
+  background-color: #BF5AF2;
+  color: #EFEFEF;
 }
