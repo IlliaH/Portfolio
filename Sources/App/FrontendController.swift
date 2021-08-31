@@ -12,7 +12,7 @@ import Leaf
 internal struct FrontendController {
     internal func mainView(req: Request) throws -> EventLoopFuture<View> {
         return req.leaf.render("index", [
-            "title": "my page - home",
+            "title": "Illia Honcharenko",
             "body": "Hi there, welcome to my awesome page!"
         ])
     }

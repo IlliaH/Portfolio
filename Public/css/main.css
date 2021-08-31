@@ -87,3 +87,16 @@
     font-size: 34px;
     color: #222;
 }
+
+.bidvineImageStyle {
+    width: 12%;
+    height: auto;
+}
+
+.bidvineWorkExperienceStyle {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 17px;
+    color: #fff";
+    padding-top: 30px;
+    padding-left: 120px;
+}
