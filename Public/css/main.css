@@ -101,3 +101,13 @@
     padding-top: 30px;
     padding-left: 120px;
 }
+
+.footerStyle {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #EFEFEF;
+    padding: 70px 500px;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+    display: block;
+}
