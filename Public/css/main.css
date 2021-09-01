@@ -35,6 +35,10 @@
     font-size: 17px;
 }
 
+.workExampleInnerStyle span {
+    display: block;
+}
+
 .videoWorkExampleStyle {
     width: 20%;
     height: auto;
