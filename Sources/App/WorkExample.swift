@@ -9,9 +9,11 @@ import Foundation
 
 internal struct WorkExample: Encodable {
     // MARK: Properties
+    // in current Leaf version index is missing
+    internal let index: Int
     internal let video: String
     internal let bgColor: String
     internal let topText: String
-    internal let bulletPointPhrases: [String]
+    internal let listItems: [String]
     internal let bottomText: String
 }
