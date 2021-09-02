@@ -10,6 +10,7 @@ import Foundation
 internal struct IndexParams: Encodable {
     // MARK: Properties
     internal let title: String
-    internal let body: String
+    internal let aboutMeText: String
+    internal let bidvineExperienceText: String
     internal let workExamples: [WorkExample]
 }

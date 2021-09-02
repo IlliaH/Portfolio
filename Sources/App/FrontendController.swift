@@ -57,7 +57,8 @@ internal struct FrontendController {
         
         let indexParams = IndexParams(
             title: "Illia Honcharenko",
-            body: "Hi there, welcome to my awesome page!",
+            aboutMeText: "I am an experienced iOS developer with 2 years of commercial work experience in dynamic and deadline-driven work environments.  I am an extremely focused and ambitious individual with the ability to learn swiftly opting to settle for nothing less than excellence. I have developed a good understanding of agile methodologies while working at my previous company. I find passion in developing iOS apps of all scales.",
+            bidvineExperienceText: "During my time at Bidvine I had the opportunity to grow as a developer, I was responsible for the development, maintenance of iOS applications, and their integration with back-end services. I worked alongside other engineers developing different layers of the applications.  I was involved in the process of converting the entire pro app from MVC to MVVM, rewriting a customer app, and creating sophisticated design.",
             workExamples: workExamples
         )
 
