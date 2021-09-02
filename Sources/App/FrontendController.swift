@@ -55,11 +55,22 @@ internal struct FrontendController {
             )
         ]
         
+        let projectExamples = [
+            ProjectExample(
+                index: 1,
+                video: "/videos/smokin_proj.MP4",
+                bgColor: "#C7D4F6",
+                topText: "Quit smoke app is designed to help people cut down smoking. It has some paid content, which becomes available after purchasing weekly subscription, so managing global app state properly was essential. While working on this app I sharpened my skills at reactive programming, got familiar with in app purchases, and submitted an app to AppStore.",
+                bottomText: "Note: all design decisions were made by other people as it was my freelance job."
+            )
+        ]
+        
         let indexParams = IndexParams(
             title: "Illia Honcharenko",
             aboutMeText: "I am an experienced iOS developer with 2 years of commercial work experience in dynamic and deadline-driven work environments.  I am an extremely focused and ambitious individual with the ability to learn swiftly opting to settle for nothing less than excellence. I have developed a good understanding of agile methodologies while working at my previous company. I find passion in developing iOS apps of all scales.",
             bidvineExperienceText: "During my time at Bidvine I had the opportunity to grow as a developer, I was responsible for the development, maintenance of iOS applications, and their integration with back-end services. I worked alongside other engineers developing different layers of the applications.  I was involved in the process of converting the entire pro app from MVC to MVVM, rewriting a customer app, and creating sophisticated design.",
-            workExamples: workExamples
+            workExamples: workExamples,
+            projectExamples: projectExamples
         )
 
         return req.leaf.render("work_example", indexParams)

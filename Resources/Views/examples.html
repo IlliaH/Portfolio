@@ -1,0 +1,45 @@
+#define(examples):
+    <div style="background: #fff">
+        <span class="experienceHeaderStyle">Commercial experience</span>
+        <div class="bidvineWorkExperienceStyle">
+            <img src = "/images/bidvine_logo.png" class="bidvineImageStyle">
+            <div style="width: 45%;">
+                <span>#(bidvineExperienceText)</span>
+            </div>
+            
+        </div>
+        
+        #for(example in workExamples):
+            <div class="workExampleStyle">
+                #if(example.index % 2 == 0):
+                    <div class="workExampleInnerStyle" style="margin-right: 50px; background-color: #(example.bgColor);">
+                        <span>#(example.topText)</span>
+                        <ul>
+                            #for(listItem in example.listItems):
+                            <li>#(listItem)</li>
+                            #endfor
+                        </ul>
+                        <span>#(example.bottomText)</span>
+                    </div>
+                    <video controls = "controls" class="videoWorkExampleStyle">
+                        <source src="#(example.video)" type='video/mp4'>
+                    </video>
+                #else:
+                    <video controls = "controls" class="videoWorkExampleStyle">
+                        <source src="#(example.video)" type='video/mp4'>
+                    </video>
+                    <div class="workExampleInnerStyle" style="margin-left: 50px; background-color: #(example.bgColor);">
+                        <span>#(example.topText)</span>
+                        <ul>
+                            #for(listItem in example.listItems):
+                            <li>#(listItem)</li>
+                            #endfor
+                        </ul>
+                        <span>#(example.bottomText)</span>
+                    </div>
+                #endif
+            </div>
+        #endfor
+    </div>
+#enddefine
+#inline("index")

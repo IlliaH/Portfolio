@@ -13,4 +13,5 @@ internal struct IndexParams: Encodable {
     internal let aboutMeText: String
     internal let bidvineExperienceText: String
     internal let workExamples: [WorkExample]
+    internal let projectExamples: [ProjectExample]
 }
