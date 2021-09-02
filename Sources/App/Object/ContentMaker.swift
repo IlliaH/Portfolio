@@ -77,7 +77,7 @@ internal enum ContentMaker {
         return [
             ProjectExample(
                 index: 4,
-                video: "/videos/smokin_proj.MP4",
+                video: "/videos/smokin_proj.mp4",
                 bgColor: "#C7D4F6",
                 topText: "Quit smoke app is designed to help people cut down smoking. It has some paid content, which becomes available after purchasing weekly subscription, so managing global app state properly was essential. While working on this app I sharpened my skills at reactive programming, got familiar with in app purchases, and submitted an app to AppStore.",
                 bottomText: "Note: all design decisions were made by other people as it was my freelance job."
