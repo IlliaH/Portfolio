@@ -1,0 +1,20 @@
+#define(workExample):
+
+#for(example in workExamples):
+    <div class="workExampleStyle">
+    <video controls = "controls" class="videoWorkExampleStyle">
+        <source src="#(example.video)" type='video/mp4'>
+    </video>
+    <div class="workExampleInnerStyle" style="margin-left: 50px; background-color: #(example.bgColor);">
+        <span>#(example.topText)</span>
+        <ul>
+            #for(listItem in example.bulletPointPhrases):
+            <li>#(listItem)</li>
+            #endfor
+        </ul>
+        <span>#(example.bottomText)</span>
+    </div>
+</div>
+#endfor
+#enddefine
+#inline("index")

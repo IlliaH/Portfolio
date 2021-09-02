@@ -58,6 +58,6 @@ internal struct FrontendController {
             workExamples: workExamples
         )
 
-        return req.leaf.render("index", indexParams)
+        return req.leaf.render("work_example", indexParams)
     }
 }
