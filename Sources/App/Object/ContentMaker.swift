@@ -35,11 +35,11 @@ internal enum ContentMaker {
                 bgColor: "#E0FAE7",
                 topText: "Insights screen shows professional’s statistics based on different data that Bidvine collected. I was responsible for rebuilding the entire screen and this is what this task involved:",
                 listItems: [
-                    "showing web views while keeping users logged in",
-                    "laying out inline content, taking into consideration the fact that values can be multiline",
-                    "performing service sorting without experiencing table view glitches",
-                    "redirecting users to other view controllers",
-                    "working with attributed string to achieve colored text"
+                    "Showing web views while keeping users logged in.",
+                    "Laying out inline content, taking into consideration the fact that values can be multiline.",
+                    "Performing service sorting without experiencing table view glitches.",
+                    "Redirecting users to other view controllers.",
+                    "Working with attributed string to achieve colored text."
                 ],
                 bottomText: "Old codebase wasn’t scalable as view controller basically contained all code, had memory leaks, was gigantic, and slow. After rebuilding the screen, we were able to extend functionality easily."
             ),
@@ -49,8 +49,8 @@ internal enum ContentMaker {
                 bgColor: "#FFF8BC",
                 topText: "Bid Insights feature showed the comparison between a current professional and other people who submitted a bid. Also, it was designed to be paid feature, as a result I had to handle different screen states. The existing code was beyond any repair. There were some difficulties that I encountered while implementing this screen:",
                 listItems: [
-                    "some parts of text were tappable, so I had to come up with custom UI component as iOS doesn’t support it by default",
-                    "to avoid duplicated code, I wrote generic code for Summary tab as those sections had a lot in common.",
+                    "Some parts of text were tappable, so I had to come up with the custom UI component as iOS doesn’t support it by default.",
+                    "To avoid duplicated code, I wrote generic code for Summary tab as those sections had a lot in common.",
                     "Professionals, who didn’t have this feature had an ability to go to the web payment screen to purchase it and after closing web view, changes were applied to UI.",
                     "Timeline tab had complex UI as there were components, which must be aligned horizontally and vertically to display information properly.",
                     "I had to read React Native code to understand all requirements."
@@ -61,7 +61,7 @@ internal enum ContentMaker {
                 index: 3,
                 video: "/videos/PaymentMethodsMP4.mp4",
                 bgColor: "#FFE9E3",
-                topText: "Payment methods screen allowed professionals to add credit cards or PayPal to pay for the contact with the customer. Initially, it was just a web view and our primary task was to reduce number of web views, so I was assigned to turn it into native screen. Some of the challenges that I faced:",
+                topText: "Payment methods screen allowed professionals to add credit cards or PayPal to pay for the contact with the customer. Initially, it was just a web view and our primary task was to reduce number of web views, so I was assigned to turn it into the native screen. Some of the challenges that I faced:",
                 listItems: [
                     "Table view cells had an async state because we can’t guarantee that API calls will be always successful.",
                     "Error-handling different scenarios such as removing default payment method and adding invalid payment methods.",
